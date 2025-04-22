@@ -1,0 +1,13 @@
+/* COMENTARIO DE CSS */
+header{
+    background-color: rgb(255, 136, 127);
+}
+/* SELECTOR POR ID */
+#parrafo2 {
+    color: darkmagenta;
+
+    /* tamaño de fuente */
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 900; /* transparencia de la letra, color fuerte o claro */
+}
