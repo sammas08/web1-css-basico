@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicainicial</title>
+</head>
+
+<body>
+    <header>
+        <h1>Practica Inicial de CSS</h1>
+        <h2>Estructura basica de CSS</h2>
+
+
+    </header>
+
+    <main>Respuestas:
+
+        <p>¿Que significa CSS?</p>
+        <p>-Es un lenguaje que sirve para describir la presentacion y el estilo de los documento HTML.</p>
+        <p>¿Para qué sirve el CSS? ¿Qué programa se utiliza para interpretar el CSS?</p>
+        <p>El CSS sirve para dar los estilos (diseño) necesarios para que un sitio web o una aplicación web se vean
+            visualmente bien.</p>
+        <p>El programa que se utiliza para interpretar el CSS es HTML.</p>
+        <P>¿A qué se llama regla de CSS?</P>
+        <P>Las reglas son un conjunto de propiedades y valores que se aplicarán a una o varias etiquetas según
+            necesitemos.</P>
+        <P>¿Cuál es la anatomía de la regla de CSS? Agregar imagen explicativa y utilizando una lista descriptiva
+            explicar sus elementos</P>
+        <td><img src="./assets/img/anatomia.png" alt="anatomía" width="300px"></td>
+
+        <h3>La regla está compuesta por los siguiente elementos:</h3>
+        <ol type="i" start="4">
+            <li><strong>Selector:</strong> selecciona los elementos a dar estilo (en este caso, los elementos p ). Para
+                dar estilo a un elemento diferente, solo cambia el selector.</li>
+            <li><strong>Declaración:</strong> aplica las propiedades que querés dar al elemento seleccionado en el
+                Selector.</li>
+            <li><strong> Propiedades: </strong> es lo que te permite dar un estilo a un elemento HTML.</li>
+            <li><strong>Valor de la propiedad:</strong> las propiedades deben tener un valor. Cada propiedad tiene
+                valores definidos. Cada valor se ubicará a la derecha.</li>
+        </ol>
+        <p> ¿Qué es un selector en CSS?</p>
+        <p>un selector es aquel que nos permitirá aplicar estilos a elementos específicos de HTML</p>
+        <p>Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente.</p>
+        <p>Selector ID: el atributo ID de HTML identifica a un elemento HTML por medio de un nombre.</p>
+        <p>Selector de clase: te permite seleccionar y aplicar estilos a todos los elementos de HTML que comparten un
+            atributo class especifico.</p>
+        <p>Selector universal: Nos permite aplicar estilos a todos los elementos HTML de un documento.</p>
+        <p>Selector de etiquetas: permite seleccionar todos los elementos HTML de un tipo especifico.</p>
+        <p>Selector descendente: permite seleccionar elementos que son descendientes de otro elemento especifico.</p>
+        <p>Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS?</p>
+        <h4>El CSS lee el HTML, encuentra las reglas CSS, las aplica al HTML segun la cascada y luego muestra la pagina
+            con el estilo correcto.</h4>
+        <ol>
+            <li>El navegador carga el HTML</li>
+            <li>Convierte el HTML en un DOM</li>
+            <li>el navegador va a buscar la mayor parte de los recursos vinculados al documento HTML, como las imágenes
+                y los videos incrustados.</li>
+            <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de
+                selector</li>
+            <li>El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle
+                las reglas.</li>
+            <li>En la pantalla se muestra el aspecto visual de la página</li>
+
+        </ol>
+        <p>¿Cuáles son las tres formas para vincular CSS con HTML?</p>
+        <h4>tres formas de colocar CSS con HTML:</h4>
+        <ol>
+            <li>utilizando un atributo llamado style. acompaña a la etiqueta, atributo para dar estilo al css</li>
+            <li>utilizando la etiqueta llamada style.</li>
+            <li>utilizando un archivo propio de CSS, es decir, con extension .css</li>
+        </ol>
+        <p>¿son iguales? ¿Qué es lo distinto? ¿Qué contribuye al cambio de diseño?</p>
+        <p><a href="https://csszengarden.com/219/">pagina 1</a></p>
+        <p><a href="https://csszengarden.com/208/">pagina 2</a></p>
+        <p>las etiquetas de ambas paginas son iguales. Lo que contribuye al cambio de diseño es el CSS</p>
+        <p> ¿Son los mismos?</p>
+        <p>no, ambos CSS son distintos</p>
+        <p>¿puede tener diferentes diseños?</p>
+        <p>si, si se puede.</p>
+
+        <p> Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada
+            propiedad.</p>
+
+
+        <table>
+            <tr>
+                <th>propiedad</th>
+                <th>descripcion</th>
+                <th>valores posibles</th>
+            </tr>
+
+            <tr>
+                <td>color</td>
+                <td>Define el color del texto.</td>
+                <td>color: rgb(34, 12, 64, 0.6), color: hsl(30, 100%, 50%, 0.6), color: red</td>
+            </tr>
+
+            <tr>
+                <td>background-color</td>
+                <td>Define el color de fondo de un elemento</td>
+                <td>color: rgb(34, 12, 64, 0.6), color: hsl(30, 100%, 50%, 0.6), color: red</td>
+            </tr>
+
+            <tr>
+                <td>font-size</td>
+                <td>Define el tamaño de la fuente del texto.</td>
+                <td>xx-small, larger, porcentaje</td>
+            </tr>
+
+            <tr>
+                <td>font-weight</td>
+                <td>Define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal).</td>
+                <td>font-weight: lighter;,font-weight: bold;, font-weight: normal;</td>
+            </tr>
+
+            <tr>
+                <td>font-style</td>
+                <td>Define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal).</td>
+                <td>bolder, .oblique, .normal</td>
+            </tr>
+
+            <tr>
+                <td>font-family</td>
+                <td>Define el tipo de letra a utilizar para el texto.</td>
+                <td>Georgia, Courier, cursive</td>
+            </tr>
+
+            <tr>
+                <td>text-align</td>
+                <td>Define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+                <td>left, center, end</td>
+            </tr>
+
+            <tr>
+                <td>text-decoration</td>
+                <td>Define la decoración del texto (por ejemplo, si está subrayado o tachado).</td>
+                <td>underline red;, none;, underline wavy red;</td>
+            </tr>
+
+            <tr>
+                <td>text-transform</td>
+                <td>Define la transformación del texto (por ejemplo, en mayúsculas o minúsculas).</td>
+                <td>capitalize;, lowercase;, full-width;</td>
+            </tr>
+
+            <tr>
+                <td>letter-spacing</td>
+                <td>Define el espacio entre letras.</td>
+                <td>rem, em, px</td>
+            </tr>
+
+            <tr>
+                <td>line-height</td>
+                <td>Define la altura de línea del texto.</td>
+                <td>rem, em, px</td>
+            </tr>
+        </table>
+
+        <p>Crea un archivo HTML con la estructura básica de una página web, agregar como título 
+            “Práctica de CSS”. Crea un encabezado de página con el mismo título, agrega un subtítulo con tu Nombre y Apellido.</p>
+
+        <p></p>
+
+
+    </main>
+
+    <footer>
+        <p>Castro Zamira-4to 1ra</p>
+    </footer>
+</body>
+
+</html>

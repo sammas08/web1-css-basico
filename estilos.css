@@ -1,0 +1,37 @@
+/*estilos para la pagina web*/
+
+
+body{
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-size: 36px;  
+color: #afa6a6;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+    font-style:oblique
+    
+}
+.encabezado{
+    text-align: center;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+    font-size: 42px;
+    
+}
+.parrafo2{
+    text-transform:lowercase;
+    font-size: 1.5em;
+}
+
+#fondo{
+    background-color: #aa3b3b;
+}
+p a{
+    color: burlywood;
+    text-transform: none;
+}
