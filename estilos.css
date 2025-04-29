@@ -35,3 +35,36 @@ p a{
     color: burlywood;
     text-transform: none;
 }
+.color{
+    color:#aa3b3b
+}
+.background-color{
+    background-color: blueviolet;
+}
+.font-size{
+    font-size: medium;
+}
+.font-weight{
+    font-weight: 500;
+}
+.font-style{
+    font-style: oblique;
+}
+.font-family{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-align{
+    text-align: left;
+}
+.text-decoration{
+    text-decoration: overline;
+}
+.text-transform{
+    text-transform: lowercase;
+}
+.letter-spacing{
+    letter-spacing: 0cap;
+}
+.line-height{
+    line-height: normal;
+}
