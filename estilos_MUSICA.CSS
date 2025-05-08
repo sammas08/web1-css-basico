@@ -1,0 +1,73 @@
+
+
+/*BODY*/
+body {
+    /*LE DAMOS COLOR AL FONDO, EN ESTE CASO DEGRADE*/
+    background: #ff73ad;
+    background: radial-gradient(circle, rgba(255, 115, 173, 1) 0%, rgba(164, 169, 245, 1) 71%);
+}
+
+
+/*HEADER*/
+header {
+    text-align: center;/*ALINEA EL TEXTO EN EL CENTRO DE LA PAGINA*/
+    height: 350px; /**/
+}
+
+h1 {
+    color: black;/*SIRVE PARA CUANDO PASEMOS EL MOUSE POR EL BOTON SE CAMBIE DE COLOR EL TEXTO*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*CAMBIA EL ESTILO DE LETRA*/
+
+}
+
+nav ul li {
+    display: inline-block;
+    /*a los elementos de  la lista los coloca horizontal*/
+
+}
+
+nav ul li a {
+    /*seleccinp las A (anchor - ancla- enlace- link- url- hipervinculo*/
+    text-decoration: none;
+    /* elimina el subrayado */
+    color: #000000;
+    text-transform: uppercase;
+    padding: 15px;
+    /*margen interno del elemento a*/
+    border-radius: 7px;
+    background: #ffffff;
+    background: linear-gradient(142deg, rgba(255, 255, 255, 1) 0%, rgba(255, 161, 242, 1) 25%);
+
+}
+
+/*Pseudo clases, es un estado especial que se le asigna a un elemento seleccionado
+Objetivo: aplicar estilos a elementos en ciertas condiciones sin necesidad de usar otra clase adicional*/
+/* :hover , el puntero este encima del elemento a*/
+nav ul li a:hover {
+    color: rgb(255, 16, 255);
+    background-color: hsl(308, 100%, 66%);
+}
+
+/* MAIN */
+
+
+#H2{/*LE DAMOS COLOR A LA LINEA DE EL TEXTO QUE ESCRIBIMOS*/
+    background-color: #FFA1F2;
+    text-align: center;
+
+}
+
+section {/*CAMBIO EL TIPO DE FUENTE DE ESTA SECCION*/
+    font-weight: 500;
+}
+
+
+/* FOOTER*/
+footer ul li {
+    display: inline-block;/*ALINEA LOS NAVEGADORES DEL FOOTER*/
+
+}
+
+footer {
+    text-align: center;/*ALINEA EL TEXTO EN EL CENTRO*/
+}
