@@ -1,0 +1,114 @@
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+
+
+
+
+}
+
+.whatsapp {
+    position: fixed;
+    right:10px;
+    bottom: 0px;
+    width:50px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.01em;
+    color: rgb(71, 70, 70);
+
+
+
+}
+
+.footer-container div h2 {
+    color: white;
+}
+
+.footer-seccion {
+    padding-left: 50px;
+    padding-right: 100px;
+
+
+}
+
+.subfooter-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+
+
+.iconos {
+    display: flex;
+    width: 30px;
+    background-color: antiquewhite;
+
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.ubi {
+    width: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.img-text {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+
+}
+
+a {
+    color: rgb(99, 95, 95);
+    text-decoration: none;
+}
+
+.C1 {
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: bolder;
+    
+
+
+
+
+
+}
+
+.C1 li a {
+    color: rgb(255, 255, 255);
+    font-weight: 500px;
+
+
+}
+
+.arrepentimiento {
+    color: white;
+}
+
+.rojo {
+    color: rgb(97, 97, 97)
+}
+
+.vertodos {
+    text-decoration: underline;
+}
