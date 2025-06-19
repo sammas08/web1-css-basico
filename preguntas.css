@@ -1,0 +1,11 @@
+.elemento1 {
+    position: relative;
+    z-index: 1;
+    color: red;
+}
+
+.elemento2 {
+    position: relative;
+    z-index: 1;
+    color: black;
+}

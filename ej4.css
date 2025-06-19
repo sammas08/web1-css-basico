@@ -1,0 +1,134 @@
+.segundaparte {
+
+    background-color: #00142e;
+    margin-top: 30px;
+
+}
+
+
+
+
+.camioneta {
+    position: relative;
+
+}
+
+.camionetaimg {
+
+    position: relative;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.imagendecamioneta {
+    width: 220px;
+}
+
+.imagen {
+    position: relative;
+    width: 700px;
+
+}
+
+.absoluto {
+    position: absolute;
+    left:-100px;
+    bottom: 0px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.primeracaja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre {
+    font-size: 30px;
+    color: white;
+}
+
+.duty {
+    border-radius: 10px;
+    background-color: azure;
+    color: black;
+    font-size: 10px;
+    width: 100px;
+    padding:7px;
+
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+}
+
+.vehiculo {
+    font-size: 7px;
+    color: rgb(199, 199, 199);
+}
+
+.segundacaja {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.texto {
+    font-size: 13px;
+}
+
+.titulo {
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+}
+
+.definicion {
+    font-size: 10px;
+    color: rgb(156, 156, 156);
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.boton {
+    border-radius: 30px;
+    background-color: #0068d0;
+    color: white;
+    width: 130px;
+    font-size: 10px;
+    padding: 7px;
+    font-weight: 800;
+}
+
+.producto {
+    width: 300px;
+}

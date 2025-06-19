@@ -1,0 +1,69 @@
+
+<!--
+¿Cuál es la diferencia principal entre position relative y position absolute?
+-position absolute funciona en relacion a la caja padre, position relative.
+
+¿Qué valor de position se utiliza por defecto para los elementos HTML?
+-el valor de por defecto para los elementos html, es position: static.
+
+¿Qué propiedad se utiliza para establecer la capa de apilamiento de elementos superpuestos?
+-fixed
+
+¿Cuándo se utiliza position fixed en CSS?
+-fixed en CSS se utiliza cuando queremos que el elemento se mantenga fijo en la pagina, por mas que desplacemos el elemento se queda fijo en su lugar.
+
+¿Cómo se comporta un elemento con position sticky al desplazarse?
+-Con el posicionamiento sticky, un elemento se comporta como "pegajoso" en relación a su contenedor o al área de visualización del navegador.
+
+¿Cuál es el valor de position adecuado para un elemento que se desea que siga el flujo normal del documento?
+-estatic, es adecuado para que siga con el flujo normal del documento.
+
+¿Cuál es la forma más común de mover un elemento con position relative?
+-bottom, top, right o left.
+
+¿En qué casos se puede utilizar z-index para controlar el orden de apilamiento de elementos?
+-se utiliza cuando queremos que un elemento de una pagina web este por encima de otro.
+
+¿Qué sucede cuando dos elementos tienen el mismo valor de z-index? Prueba su resultado y responde.
+-cuando dos elementos tienen el mismo valor z-index, en la pagina web quedan uno arriba de otro, complicado de ver.
+
+¿Cuál es la principal diferencia entre position sticky y position fixed?
+-la diferencia es que el sticky al scrollear quedara fijamente en el top de la pagina, y fixed quedara el elemento fijo en la posicion asignada.
+
+En el siguiente ejemplo, ¿el valor top y right es en relación a qué elemento?
+-en relacion al body.
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       .container {
+           width: 400px;
+           height: 300px;
+           background-color: lightgray;
+           position: relative;
+       }
+
+       .box {
+           width: 100px;
+           height: 100px;
+           background-color: blue;
+           position: absolute;
+           top: 50px;
+           right: 20px;
+       }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+       <div class="box"></div>
+   </div>
+</body>
+</html>
+
+<!--En el ejemplo anterior ¿qué agregarías para que la caja hija esté dentro de la caja padre?
+-a la caja hija le agregaria la posicion absoluta y a la caja padre le agregaria la posicion relativa.
+-->
+
