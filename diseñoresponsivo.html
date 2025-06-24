@@ -1,28 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@media</title>
-    <style>
-        .container{
-            font-size: 0.8em;
-            background-color: brown;
-        }
-        @media screen and (width>1200px) {
-            .container{
-                background-color: aquamarine;
-                font-size: 2.5em;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="box"> 
-            CAJA
-        </div>
 
-    </div>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>@media</title>
+   <style>
+      * {
+         padding: 0;
+         margin: 0;
+      }
+
+      .navegador {
+         background-color: rgb(134, 95, 95);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding: 0px;
+
+      }
+
+      .ul {
+         list-style: none;
+         padding: 0px;
+      }
+
+      .menu {
+         border-radius: 20px;
+         background-color: rgb(194, 147, 139);
+         color: rgb(0, 0, 0);
+         margin: 8px;
+         display: flex;
+         justify-content: center;
+      }
+
+      /* Inicio seccion 1 */
+
+      .section-productos {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 30px;
+         margin-top: 20px;
+      }
+
+      .cuadro {
+         width: 300px;
+         border: 0.1rem solid;
+         padding: 20px;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+      }
+
+      .productos {
+         width: 70px;
+
+      }
+
+      .nombre {
+         font-size: 20px;
+         color: rgb(255, 57, 57);
+      }
+
+      .descripcion {
+         font-size: 10px;
+         color: black;
+      }
+
+      /* inicio seccion 2*/
+
+
+
+      @media screen and (width >=768px) {
+
+         .navegador {
+            background-color: rgb(134, 95, 95);
+            display: flex;
+            flex-direction: row;
+         }
+
+      }
+   </style>
+</head>
+
+<body>
+   <main class="menu-principal">
+      <nav class="menu-inicio">
+         <ul class="navegador">
+            <li class="menu"><a href="#Inicio" class="menu">Inicio</a></li>
+            <li class="menu"><a href="#productos" class="menu">Productos</a></li>
+            <li class="menu"><a href="#servicios" class="menu">Servicios</a></li>
+            <li class="menu"><a href="#contacto" class="menu">Contacto</a></li>
+         </ul>
+      </nav>
+
+
+
+      <section class="section-productos">
+
+         <div class="cuadro">
+            <img src="./img-pos/711SuXW2zWL.__AC_SX300_SY300_QL70_ML2_.jpg" alt="" class="productos">
+            <div class="nombre">OLDLEY</div>
+            <div class="descripcion">Botella de agua deportiva motivacional de 32 onzas con marcador de tiempo para
+               tomar agua, de tritán,
+               sin BPA, boca ancha a prueba de fugas, transparente </div>
+            <div>us$11.99</div>
+         </div>
+
+         <div class="cuadro">
+            <img src="./img-pos/ropa.jpg" alt="" class="productos">
+            <div class="nombre">HAODIAN</div>
+            <div class="descripcion">Conjunto de entrenamiento de dos piezas para mujer, brasier deportivo a juego,
+               cintura alta, leggings fruncidos en los glúteos, gimnasio, yoga, ropa activa </div>
+            <div>us$38.99</div>
+         </div>
+
+         <div class="cuadro">
+            <img src="./img-pos/zapatillas.jpg" alt="" class="productos">
+            <div class="nombre">LUOGOKS</div>
+            <div class="descripcion">Tenis de baloncesto para mujer, con cojín de aire, transpirables, para deporte,
+               gimnasio, fitness, cross trainers </div>
+            <div>us$32.99</div>
+         </div>
+
+
+
+
+
+
+      </section>
+
+
+      <section>
+
+      </section>
+
+
+
+   </main>
 </body>
+
 </html>
